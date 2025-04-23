@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #242424;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #121212;
+    padding: 24px 24px 90px 24px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo i{
+    font-size: 24px;
+}
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-library i {
+    display: flex;
+}
+.nav-library p {
+    margin-left: -5px;
+    color: #999999;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-playlist{
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+.nav-playlist button{
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+   
+}
+.nav-playlist button:hover{
+    background-color: #dfdfdf;
+}
+.nav-playlist p{
+    font-size: 12px;
+}
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 50px;
+    margin-bottom: 2px;
+}
+.nav-footer {
+    margin-top: auto;
+    display: flex;
+}
+.main {
+    margin-right: -50px;
+    display: flex;
+}
+
+.search-bar input{
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+

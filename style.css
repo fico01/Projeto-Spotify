@@ -37,6 +37,7 @@ body {
 .nav-library i {
     display: flex;
 }
+
 .nav-library p {
     margin-left: -5px;
     color: #999999;
@@ -84,8 +85,8 @@ main {
 }
 .icon-search {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><path d="M9 3a6 6 0 104.243 10.243l5 5 1.414-1.414-5-5A6 6 0 009 3zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>');
     background-size: contain;
     background-repeat: no-repeat;
@@ -98,6 +99,9 @@ main {
     border-radius: 20px;
     width: 300px;
     border: #121212;
+}
+.search-bar:hover{
+    background-color: #313131cc;
 }
 .search-bar i {
     margin-top: 5px;
@@ -114,6 +118,13 @@ main {
     outline: none;
     font-size: 15px;
     
+}
+.search-bar img{
+    width: 45px;
+    display: flex;
+    rotate: 180deg;
+    margin-right: -20px;
+    margin-top: -10px;
 }
 
 .artists-grid, .albums-grid {

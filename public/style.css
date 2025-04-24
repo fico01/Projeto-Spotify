@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #2c2a2a;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #121212;
+    padding: 24px 24px 90px 24px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo i{
+    font-size: 24px;
+}
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-library i {
+    display: flex;
+}
+
+.nav-library p {
+    margin-left: -5px;
+    color: #999999;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-playlist{
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+.nav-playlist button{
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+   
+}
+.nav-playlist button:hover{
+    background-color: #dfdfdf;
+}
+.nav-playlist p{
+    font-size: 12px;
+}
+
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 50px;
+    margin-bottom: 2px;
+}
+.nav-footer {
+    margin-top: auto;
+    display: flex;
+}
+main {
+    padding: 24px;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.icon-search {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><path d="M9 3a6 6 0 104.243 10.243l5 5 1.414-1.414-5-5A6 6 0 009 3zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #242424cc;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 300px;
+    border: #121212;
+}
+.search-bar:hover{
+    background-color: #313131cc;
+}
+.search-bar i {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    
+}
+.search-bar input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-left: 20px;
+    outline: none;
+    font-size: 15px;
+    
+}
+.search-bar img{
+    width: 45px;
+    display: flex;
+    rotate: 180deg;
+    margin-right: -20px;
+    margin-top: -10px;
+}
+
+.artists-grid, .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+}
+.content {
+    margin-top: 40px;
+}
+#login-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    z-index: 9999;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: #242424;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    padding: 25px;
+    width: 350px;
+  }
+  .login-container button {
+    
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  

@@ -170,4 +170,11 @@ main {
     padding: 8px 12px;
     cursor: pointer;
   }
+  .login-container img{
+    width: 45px;
+    display: flex;
+    rotate: 90deg;
+    margin-right: -310px;
+    margin-bottom: -27px;
+}
   

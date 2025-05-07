@@ -33,6 +33,6 @@ if (token) {
   console.warn('❌ Token não encontrado. Clique para fazer login.');
   document.getElementById('login-btn').addEventListener('click', () => {
     // Redireciona para o endpoint do Node que inicia o login com o Spotify
-    window.location.href = '/';
+    window.location.href = '/login';
   });
 }

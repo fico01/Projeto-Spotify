@@ -8,7 +8,7 @@ const app = express();
 const PORT = 8888;
 
 // Substitua por seu domínio ngrok e o mesmo URI no dashboard do Spotify
-const redirect_uri = 'https://127.0.0.1:4040/callback';
+const redirect_uri = 'https://3915-189-115-43-6.ngrok-free.app/callback';
 
 // Serve os arquivos estáticos da pasta "public"
 app.use(express.static(path.join(__dirname, 'public')));
